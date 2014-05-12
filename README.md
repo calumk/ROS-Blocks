@@ -10,7 +10,6 @@ Full documentation of the project, including sample videos, and the PDF can be o
 
 It is relesed under the MIT License.
 
-hello Mungo
 
 
 #### Pre-requisits
