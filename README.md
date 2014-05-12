@@ -5,10 +5,12 @@ ROS::Blocks
 
 This is a repo for my BEng Design Engineering major project, ROS::Blocks
 
-Full documentation of the project, including sample videos, and the PDF can be obtained from my website [Calumk.com](https://www.calumk.com/dissertation)
+Full documentation of the project, including sample videos, and the PDF can be obtained from my website [Calumk.com](http://www.calumk.com/dissertation)
 
 
 It is relesed under the MIT License.
+
+hello Mungo
 
 
 #### Pre-requisits
