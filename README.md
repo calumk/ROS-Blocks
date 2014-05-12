@@ -1,6 +1,8 @@
 ROS-Blocks
 ==========
 
+![ros blocks!](http://calumk.com/dissertation/assets/img/jumbo_header.png "The ROS::Blocks Logo")
+
 This is a repo for my BEng Design Engineering project, ROS::Blocks
 
 It is relesed under the MIT License.
