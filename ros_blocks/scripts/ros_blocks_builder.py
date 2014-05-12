@@ -343,3 +343,8 @@ if s == 'r':
     if s == 'f':
         moveTo(above)
         moveTo(factoryOrigin,faceRight)
+
+
+
+
+        
