@@ -7,11 +7,11 @@ It is relesed under the MIT License.
 
 
 ### Pre-requisits
-Tested on Ubuntu 12.04
-ROS (Hydro)
-OpenCV - should be installed by default
-SimpleCV
-Baxter Research Robot (v1)
+* Tested on Ubuntu 12.04
+* ROS (Hydro)
+* OpenCV - should be installed by default
+* SimpleCV
+* Baxter Research Robot (v1)
 
 
 
