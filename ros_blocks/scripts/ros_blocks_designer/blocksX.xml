@@ -1,0 +1,16 @@
+<blocks>
+<block>
+<id>blk_1</id>
+<color>color_yellow</color>
+<type>blockType_cube_h</type>
+<x>13</x>
+<y>5</y>
+</block>
+<block>
+<id>blk_1</id>
+<color>color_red</color>
+<type>blockType_cuboid_h</type>
+<x>4</x>
+<y>5</y>
+</block>
+</blocks>

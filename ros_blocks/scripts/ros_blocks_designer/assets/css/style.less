@@ -1,0 +1,127 @@
+@unit: 50px;
+
+@red:    #db3818;
+@blue:   #0081e1;
+@orange: #ff8700;
+@green:  #67bc00;
+@yellow: #ffd200;
+@purple: #7d30cc;
+@dark_grey: #1f0c32;
+
+body{margin:0px; padding:0px; background-color:@dark_grey}
+
+.color_red{    background-color:@red;}
+.color_blue{   background-color:@blue }
+.color_orange{ background-color:@orange }
+.color_green{  background-color:@green }
+.color_yellow{ background-color:@yellow }
+.color_purple{ background-color:@purple }
+
+.border{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border:2px solid #fff;
+}
+
+@bgheight: @unit*2;
+
+@containerWidth: 14;
+#container{
+    width:@containerWidth*@unit;
+    height:12*@unit;
+    background-color:#fff;
+}
+
+#menu{
+    position: absolute;
+    margin-left:10+@containerWidth*@unit;
+    margin-top:20px;
+}
+
+
+
+#gravity{
+    font-size: 45px;
+}
+
+
+
+.ui-widget-content{
+    position: absolute;
+}
+
+
+
+
+
+// Cuboids Blocks
+.blockType_cube_h{
+    width:1*@unit;
+    height:1*@unit;
+}
+.blockType_cube_v{
+    width:1*@unit;
+    height:1*@unit;
+}
+
+.blockType_cuboid_h{
+    height:1*@unit;
+    width:2*@unit;
+}
+.blockType_cuboid_v{
+    height:2*@unit;
+    width:1*@unit;
+}
+
+.blockType_pillar_h{
+    height:1*@unit;
+    width:4*@unit;
+}
+.blockType_pillar_v{
+    height:4*@unit;
+    width:1*@unit;
+}
+
+
+// Special Blocks
+.blockType_bridge_h{
+    height:1*@unit;
+    width:2*@unit;
+    background-image:url('../img/bridge.png');
+    background-size:100% 100%;
+}
+.blockType_bridge_v{
+    height:2*@unit;
+    width:1*@unit;
+    background-image:url('../img/bridge_v.png');
+    background-size:100% 100%;
+}
+
+
+.blockType_arch_h{
+    height:2*@unit;
+    width:4*@unit;
+    background-image:url('../img/arch.png');
+    background-size:100% 100%;
+}
+.blockType_arch_v{
+    height:4*@unit;
+    width:2*@unit;
+    background-image:url('../img/arch_v.png');
+    background-size:100% 100%;
+}
+
+.blockType_window_h{
+    height:2*@unit;
+    width:2*@unit;
+    background-image:url('../img/window.png');
+    background-size:100% 100%;
+}
+.blockType_window_v{
+    height:2*@unit;
+    width:2*@unit;
+    background-image:url('../img/window.png');
+    background-size:100% 100%;
+}
+
