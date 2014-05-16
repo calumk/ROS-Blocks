@@ -28,13 +28,17 @@ To run the code, place the ros_blocks directory within your (Hydro) ROS workspac
 
 #### ROS:: Blocks 'Builder'
 ```
-$ ros-run ros-blocks ros-blocks-builder.py —f blocks.xml
+$ ros-run ros-blocks ros-blocks-builder.py -—f blocks.xml
 ```
 
 
 #### ROS:: Blocks 'Designer'
 ```
-$ ros-run ros-blocks ros-blocks-designer.py —f blocks.xml
+$ ros-run ros-blocks ros-blocks-designer.py
+```
+Or if there is a build of modified version of chrome installed, you can use:
+```
+$ ros-run ros-blocks ros-blocks-designer.py -—f blocks.xml
 ```
 
 #### ROS:: Blocks 'Basilisk'
